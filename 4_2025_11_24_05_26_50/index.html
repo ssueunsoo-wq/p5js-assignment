@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <!-- 
+          이것이 CCapture.js 라이브러리를 불러오는 핵심 코드입니다.
+          이 스크립트가 p5.js와 sketch.js보다 먼저 로드되어야 합니다.
+        -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ccapture.js/1.1.0/CCapture.all.min.js"></script>
+        
+        <!-- p5.js 라이브러리 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8" />
+      </head>
+      <body>
+        <main>
+        </main>
+        <!-- 
+          가장 마지막에 sketch.js 코드를 불러옵니다.
+          이때는 이미 CCapture와 p5가 모두 로드된 상태입니다.
+        -->
+        <script src="sketch.js"></script>
+      </body>
+    </html>
